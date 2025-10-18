@@ -75,7 +75,7 @@ public class MindustryToolPluginLoader extends Plugin {
 
     private final List<PluginData> PLUGINS = Arrays.asList(
             new PluginData("mindustry-tool", "ServerController.jar",
-                    "https://api.github.com/repos/MindustryVN/ServerController/releases/latest"));
+                    "https://api.github.com/repos/MindustryTool/ServerController/releases/latest"));
 
     private final String PLUGIN_DIR = "config/plugins";
     private final Path METADATA_PATH = Paths.get("config/plugin-meta.json");
